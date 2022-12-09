@@ -62,7 +62,7 @@ const MyRentalItem = ({ rental, deleteMyRental }) => {
               </div>
               <div className='browseItems__price'>
                 <h2>
-                  <span>{rental.dailyPrice}₹</span> / night
+                  <span>₹{rental.dailyPrice}</span> / night
                 </h2>
                 <p>{rental.numOfRooms} Rooms Available</p>
               </div>
