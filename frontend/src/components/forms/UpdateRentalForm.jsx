@@ -47,7 +47,9 @@ const UpdateRentalForm = ({ onSubmit, rentalToUpdate }) => {
             </option>
             <option value='apartment'>Apartment</option>
             <option value='condo'>Condo</option>
-            <option value='apartment'>House</option>
+            <option value='house'>House</option>
+            <option value='unique Stay'>Unique Stay</option>
+            
           </select>
         </div>
         <div className='input'>

@@ -57,7 +57,9 @@ const AddRentalForm = ({ onSubmit }) => {
             </option>
             <option value='apartment'>Apartment</option>
             <option value='condo'>Condo</option>
-            <option value='apartment'>House</option>
+            <option value='house'>House</option>
+            <option value='unique Stay'>Unique Stay</option>
+            
           </select>
           <ErrorMessage as={<Error />} errors={errors} name='category'>
             {({ message }) => <p>{message}</p>}
