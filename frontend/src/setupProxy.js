@@ -4,7 +4,7 @@ module.exports = function (app) {
   app.use(
     '/api',
     proxy.createProxyMiddleware({
-      target: 'http://localhost:3001',
+      target: 'https://casa-de-backend.cyclic.app',
       changeOrigin: true,
     })
   );
